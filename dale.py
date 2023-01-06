@@ -7,10 +7,10 @@ import os
 API_ENDPOINT = "https://api.openai.com/v1/images/generations"
 
 # Your OpenAI API key
-API_KEY = "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"
+API_KEY = "your api key"
 
 # The prompt to use as input to DALL-E
-prompt = "generate image of a logo of a raspberry pi with the words piboy in the center"
+prompt = "your API prompt string"
 
 # Make the API request
 response = requests.post(
